@@ -1,0 +1,236 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:sap.ui.core="sap.ui.core" xmlns:sap.ui.layout="sap.ui.layout" controllerName="com.stu.pro.view.StuCarousel" displayBlock="true">
+
+<App>
+	<pages>
+	    <Carousel activePage="" showBusyIndicator="true" loop="true" showPageIndicator="true">
+	    <customData>
+	        <sap.ui.core:CustomData xmlns:sap.ui.core="sap.ui.core" key="sap-ui-fastnavgroup" value="true" writeToDom="true" id="__data1"/>
+	    </customData>
+	    <pages>
+	    	<!--<mvc:XMLView viewName="com.stu.pro.view.PageOne"/>-->
+	    	<Page title="Monday" backgroundDesign="Standard" showNavButton="false" showHeader="true" showFooter="false" navButtonType="Default" showSubHeader="true" titleLevel="H1" id="Page1">
+	    		<content>
+	    		<sap.ui.layout:Grid>
+	    		    <sap.ui.layout:content>
+	    		        <CustomListItem class="c_bgImage">
+							<Toolbar height="3.5em">
+								<sap.ui.core:Icon src="sap-icon://doctor" size="3em"/>
+								<Title level="H1" text="Reading"/>
+							</Toolbar>
+						<content>
+							<TextArea width="100%" rows="10" value="课本内容：  Level 1  The Alphabet《认识字母》 1A：Aa - Mm 13个字母以及其发音。（13个单元） 1B：Nn - Zz   13个字母及其发音。 （13个单元）  主要介绍26个英文字母及相关字汇。英语的学习需要大量的听力输入，在学习英语拼读之前，大量的听和小写字型的辨认，都是学习拼读必要的预备工作。" textAlign="Initial" wrapping="None"/>
+						    <!--<Text text="课本内容：  Level 1  The Alphabet《认识字母》 1A：Aa - Mm 13个字母以及其发音。（13个单元） 1B：Nn - Zz   13个字母及其发音。 （13个单元）  主要介绍26个英文字母及相关字汇。英语的学习需要大量的听力输入，在学习英语拼读之前，大量的听和小写字型的辨认，都是学习拼读必要的预备工作。" textAlign="Begin" textDirection="LTR" busy="false"/>-->
+						</content>
+						</CustomListItem>
+	    		        <CustomListItem>
+							<Toolbar height="3.5em">
+								<sap.ui.core:Icon src="sap-icon://doctor" size="3em"/>
+								<Title level="H1" text="Literacy"/>
+							</Toolbar>
+							<TextArea width="100%" rows="10" value="Level 3：The Short Vowels《认识元音》  3A： 学习 Aa, Ee, Ii   3个短母音 以及9个音组 3B：学习 Oo, Uu    2个短母音 以及6个音组    介绍5个母音，15个音组，52个相关的单词。  本级一共有24个单元，（每分册12单元），每个单元介绍母音以及母音组合的基本发音。孩子开始学习拼读比较复杂的英文单字，尤其是子音+母音+子音的单字。。" textAlign="Initial" wrapping="None"/>
+							<!--<Text text=" Level 3：The Short Vowels《认识元音》  3A： 学习 Aa, Ee, Ii   3个短母音 以及9个音组 3B：学习 Oo, Uu    2个短母音 以及6个音组    介绍5个母音，15个音组，52个相关的单词。  本级一共有24个单元，（每分册12单元），每个单元介绍母音以及母音组合的基本发音。孩子开始学习拼读比较复杂的英文单字，尤其是子音+母音+子音的单字。" textAlign="Begin" textDirection="LTR" busy="false"/>-->
+						</CustomListItem>
+						<CustomListItem>
+							<Toolbar height="3.5em">
+								<sap.ui.core:Icon src="sap-icon://doctor" size="3em"/>
+								<Title level="H1" text="English"/>
+							</Toolbar>
+							<TextArea width="100%" rows="10" value="Level 2  The Long Vowels《认识子音》  2A：学习英文 Bb - Pp  12个子音   （12个单元） 2B：学习英文 Qq - Zz   9个子音   （15个单元） 介绍21个子音的基本发音和84个相关的单词。  透过子音的相关字汇，学习21个子音的基本发音。利用童谣、指字说音，让孩子念念唱唱完成拼读的基本学习。" textAlign="Initial" wrapping="None"/>
+							<!--<Text text="Level 2  The Long Vowels《认识子音》  2A：学习英文 Bb - Pp  12个子音   （12个单元） 2B：学习英文 Qq - Zz   9个子音   （15个单元） 介绍21个子音的基本发音和84个相关的单词。  透过子音的相关字汇，学习21个子音的基本发音。利用童谣、指字说音，让孩子念念唱唱完成拼读的基本学习。" textAlign="Begin" textDirection="LTR" busy="false"/>-->
+						</CustomListItem>
+						<CustomListItem>
+							<Toolbar height="3.5em">
+								<sap.ui.core:Icon src="sap-icon://doctor" size="3em"/>
+								<Title level="H1" text="Science"/>
+							</Toolbar>
+							<TextArea width="100%" rows="10" value="世界各国专家对phonics 学习的评价：  The Bush administration is making a concerted effort to promote the teaching of phonics in America’s classrooms.  Bush administration officials say they believe phonics is the best approach for reading. 美国布什政府正全力在全美推广自然拼读英语教学法。布什政府认为，自然拼读法是教学的最佳方法。  ——摘自美国《华盛顿邮报》" textAlign="Initial" wrapping="None"/>
+							<!--<Text text="世界各国专家对phonics 学习的评价：  The Bush administration is making a concerted effort to promote the teaching of phonics in America’s classrooms.  Bush administration officials say they believe phonics is the best approach for reading. 美国布什政府正全力在全美推广自然拼读英语教学法。布什政府认为，自然拼读法是教学的最佳方法。  ——摘自美国《华盛顿邮报》" textAlign="Begin" textDirection="LTR" busy="false"/>-->
+						</CustomListItem>
+						<CustomListItem>
+							<Toolbar height="3.5em">
+								<sap.ui.core:Icon src="sap-icon://doctor" size="3em"/>
+								<Title level="H1" text="Orama"/>
+							</Toolbar>
+							<TextArea width="100%" rows="10" value="Phonics is the fastest, the easiest and most effective process to teach any students of any age how to read American English.  自然拼读英语教学法是教任何年龄的学生读英语最快、最简单、最有效的方法。 ——美利坚语言学院 理查·伯格教授 Professor Richard Berg (US.)" textAlign="Initial" wrapping="None"/>
+							<!--<Text text=" Phonics is the fastest, the easiest and most effective process to teach any students of any age how to read American English.  自然拼读英语教学法是教任何年龄的学生读英语最快、最简单、最有效的方法。 ——美利坚语言学院 理查·伯格教授 Professor Richard Berg (US.)" textAlign="Begin" textDirection="LTR" busy="false"/>-->
+						</CustomListItem>
+	    		    </sap.ui.layout:content>
+	    		</sap.ui.layout:Grid>
+	    		</content>
+	    	</Page>
+	        <Page title="Meals,Hygiene,Nap" showFooter="false" titleLevel="H1" id="Page2">
+	            <content>
+	                <sap.ui.layout:Grid>
+	                    <sap.ui.layout:content>
+		                    <CustomListItem>
+								<Toolbar height="3.5em">
+									<Title level="H1" text="snack 1" class="title_style"/>
+								</Toolbar>
+									<sap.ui.layout:VerticalLayout width="100%">
+										<sap.ui.layout:content>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="all" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="most" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="some" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="none" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										</sap.ui.layout:content>
+									</sap.ui.layout:VerticalLayout>
+							<content/>
+							</CustomListItem>
+		                    <CustomListItem>
+								<Toolbar height="3.5em">
+									<Title level="H1" text="lunch" class="title_style"/>
+								</Toolbar>
+									<sap.ui.layout:VerticalLayout width="100%">
+										<sap.ui.layout:content>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="all" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="most" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="some" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="none" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										</sap.ui.layout:content>
+									</sap.ui.layout:VerticalLayout>
+							<content/>
+							</CustomListItem>
+							<CustomListItem>
+								<Toolbar height="3.5em">
+									<Title level="H1" text="hygiene" class="title_style"/>
+								</Toolbar>
+									<sap.ui.layout:VerticalLayout width="100%">
+										<sap.ui.layout:content>
+									        <HBox>
+									        	<Label text="bowel movement" width="100%" class="label_style"/>
+									        	<Switch class="switch_left"/>
+									        </HBox>
+											<HBox>
+									        	<Label text="brushed teeth" width="100%" class="label_style"/>
+									        	<Switch class="switch_left"/>
+									        </HBox>
+										</sap.ui.layout:content>
+									</sap.ui.layout:VerticalLayout>
+							<content/>
+							</CustomListItem>
+							
+							<CustomListItem>
+								<Toolbar height="3.5em">
+									<Title level="H1" text="nap" class="title_style"/>
+								</Toolbar>
+									<sap.ui.layout:VerticalLayout width="100%">
+										<sap.ui.layout:content>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="no" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="yes" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Input width="100%" id="__input0"/>
+										        	
+										        <Label text="min" width="100%" class="label_style label_textAlign"/>
+										       
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										</sap.ui.layout:content>
+									</sap.ui.layout:VerticalLayout>
+							<content/>
+							</CustomListItem>
+							
+							
+							<CustomListItem>
+								<Toolbar height="3.5em">
+									<Title level="H1" text="snack 2" class="title_style"/>
+								</Toolbar>
+									<sap.ui.layout:VerticalLayout width="100%">
+										<sap.ui.layout:content>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="all" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="most" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										<sap.ui.layout:HorizontalLayout class="widths">
+										    <sap.ui.layout:content>
+										        <Label text="some" width="100%" class="label_style"/>
+										        <Switch/>
+										        <Label text="none" width="100%" class="label_style"/>
+										        <Switch/>
+										    </sap.ui.layout:content>
+										</sap.ui.layout:HorizontalLayout>
+										</sap.ui.layout:content>
+									</sap.ui.layout:VerticalLayout>
+							<content/>
+							</CustomListItem>
+							
+	                    </sap.ui.layout:content>
+
+	                </sap.ui.layout:Grid>
+
+
+	            </content>
+
+	        </Page>
+
+	        <Page title="Comments" showFooter="false" id="Page3">
+	        <content>
+		        <sap.ui.layout:Grid>
+		            <sap.ui.layout:content>
+		                <CustomListItem>
+		                    <content>
+	        					<Toolbar height="3.5em">
+	        						<sap.ui.core:Icon src="sap-icon://doctor" size="2em"/>
+									<Title level="H1" text="Teacher" class="title_style"/>
+								</Toolbar>
+	        					<TextArea rows="5" width="100%"/>
+		                    </content>
+		                </CustomListItem>
+		            	<CustomListItem>
+		                    <content>
+	        					<Toolbar height="3.5em">
+	        						<sap.ui.core:Icon src="sap-icon://doctor" size="2em"/>
+									<Title level="H1" text="Parents" class="title_style"/>
+								    
+								</Toolbar>
+	        					<TextArea rows="5" width="100%"/>
+		                    </content>
+		                </CustomListItem>
+		             </sap.ui.layout:content>
+		        </sap.ui.layout:Grid>
+		        	    <sap.ui.layout:HorizontalLayout class="H_tiJiao">
+		        	        <sap.ui.layout:content>
+		        	            <Button text="提交" width="100px" id="__button1"/>
+		        	        </sap.ui.layout:content>
+		        	    </sap.ui.layout:HorizontalLayout>
+	        </content>
+	        </Page>
+	        </pages>
+	     </Carousel>
+	</pages>
+</App>
+</mvc:View>

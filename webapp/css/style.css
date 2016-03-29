@@ -1,0 +1,37 @@
+/* Enter your custom styles here */
+.widths{
+	width:100%;
+}
+.sapUiHLayoutChildWrapper{
+	white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+}
+.sapMFlexItem{
+	position: relative;
+    /*-ms-flex-preferred-size: auto;*/
+    /*-ms-flex-negative: 1;*/
+    width: 75%;
+}
+.title_style{
+	font-weight: 600;
+    font-size: 25px;
+}
+.label_style{
+	font-size: 23px;
+}
+.label_textAlign{
+	text-align: center !important;
+}
+.switch_left{
+	    margin-left: 20%;
+}
+.c_bgImage{
+	/*background-image: url(../img/abc.png) ;*/
+	/*background-repeat: no-repeat;*/
+}
+.H_tiJiao{
+	width: 100%;
+    text-align: center;
+}
